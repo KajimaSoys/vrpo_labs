@@ -1,17 +1,59 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      О себе
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Гришин Вадим Вячеславович</ion-card-title>
+    </ion-card-header>
+  </ion-card>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <ion-item>
+      <ion-icon name="book-outline" slot="start"></ion-icon>
+      <ion-label>Место учебы</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      Казанский национальный исследовательский технологический университет
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="clipboard-outline" slot="start"></ion-icon>
+      <ion-label>Факультет</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      Факультет дизайна и программной инеженерии
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="pencil-outline" slot="start"></ion-icon>
+      <ion-label>Курс и группа</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      4 курс, группа 7281-12
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="body-outline" slot="start"></ion-icon>
+      <ion-label>Увлечения</ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      Игра на музыкальных инструментах, программирование на Python, ремонт компьютеров и ноутбуков
+    </ion-card-content>
+  </ion-card>
 </ion-content>

@@ -1,17 +1,60 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Галерея
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Вот же он!</ion-card-title>
+    </ion-card-header>
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <img src="https://sun9-62.userapi.com/impg/iFVhS3fDavtVKv6GjvH22I2x5cDovZFi8XLBnw/MgaRooIHWaU.jpg?size=1200x1600&quality=96&sign=edef47cc284dc9d533a0962bfbbc8628&type=album">
+      </ion-slide>
+      <ion-slide>
+        <img src="https://sun9-70.userapi.com/impg/VoMQHaMzoNzDZ8lBWsCh51OfV4jnNvM0v2qb5g/x0zmbJzogOg.jpg?size=1200x1600&quality=96&sign=3f8104d99cd05682e2b32303bc4512e9&type=album">
+      </ion-slide>
+      <ion-slide>
+        <img src="https://sun9-28.userapi.com/impg/LmFGVeFYR8GFnOiS6LhvCEOPc7ksdeVETdb7zg/Mp8TQknhxhw.jpg?size=1218x1624&quality=96&sign=2507f717eb06530a67d220a50eb9472d&type=album">
+      </ion-slide>
+    </ion-slides>
+  </ion-card>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Смешные картиночки</ion-card-title>
+    </ion-card-header>
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <img src="https://sun9-12.userapi.com/impg/8JAtwFp90ZT7AePOuVDMo7RvDVP6MIt23wcQWw/ZGkYTUQxk68.jpg?size=668x375&quality=96&sign=2af74c4fd7569f7261a548a7cfa17a8e&type=album">
+      </ion-slide>
+      <ion-slide>
+        <img src="https://sun9-47.userapi.com/impg/LcEWw0dicaPfsIOb_pGzzOZ2uuYEphojE72Eeg/wH6O-7ua8r4.jpg?size=750x488&quality=96&sign=66299fca022ab1206dbd1ad45b1d557d&type=album">
+      </ion-slide>
+      <ion-slide>
+        <img src="https://sun9-82.userapi.com/impg/a5xqcrvM7WInyWKoviN4b60fcPc_qk2hZ-s-0A/hD4zDoTqepg.jpg?size=1125x674&quality=96&sign=3bff2764702924df03583ff54a10e5c6&type=album">
+      </ion-slide>
+    </ion-slides>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Котятки</ion-card-title>
+    </ion-card-header>
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <img src="https://sun9-41.userapi.com/impg/OlZn18oF4-m4bvw4rmjUIIb0Onu0fuDSdIusww/XqehAKcoUl0.jpg?size=604x585&quality=96&sign=b44824c935c1db32c910cdc44849ef86&type=album">
+      </ion-slide>
+      <ion-slide>
+        <img src="https://sun9-79.userapi.com/impg/1ZjRZ87rTN2Nz_T4i4A0fE93T-OesMOhhbM9hA/r4PLc9Oc9nY.jpg?size=645x625&quality=96&sign=e6c89f2860f574d58630236357503015&type=album">
+      </ion-slide>
+      <ion-slide>
+        <img src="https://sun9-39.userapi.com/impg/ht42KUkgy4bOUYlTfAXw2Z0nc_g9bJRDjfTDAw/V0zZxNrhLN4.jpg?size=449x435&quality=96&sign=6f4d9799707a9bbf83e6e33ddc25e437&type=album">
+      </ion-slide>
+    </ion-slides>
+  </ion-card>
 </ion-content>
